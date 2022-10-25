@@ -1,9 +1,7 @@
 package Array_DSA;
-
 import java.util.HashMap;
-
 public class Subarray_Given_sum {
-    public int SubArraySum(int[] nums, int k) {
+    public static int SubArraySum(int[] nums, int k) {
         int count = 0, sum = 0;
         HashMap< Integer, Integer > map = new HashMap < > ();
         for (int i = 0; i < nums.length; i++) {
@@ -21,6 +19,8 @@ public class Subarray_Given_sum {
 
     public static void main(String[] args) {
         int[] arr={1,2,1,2,1};
+        int k=3;
+        System.out.println(SubArraySum(arr,k));
 
     }
 }
