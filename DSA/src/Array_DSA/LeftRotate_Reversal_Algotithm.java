@@ -26,7 +26,7 @@ public class LeftRotate_Reversal_Algotithm {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int n = 5;
+        int n = arr.length;
         int d = 2;
 
         System.out.println("Before Rotation");
